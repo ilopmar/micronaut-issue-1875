@@ -1,3 +1,12 @@
 micronaut:
   application:
     name: validator-header-controller
+  router:
+    versioning:
+      enabled: true
+      parameter:
+        enabled: false
+      header:
+        enabled: true
+        names:
+          - 'X-API-Version'
