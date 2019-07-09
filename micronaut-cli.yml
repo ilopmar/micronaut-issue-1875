@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: validator.header.controller
+---
+testFramework: spock
+sourceLanguage: java
